@@ -27,62 +27,6 @@ Restoran App adalah sebuah sistem pemesanan restoran yang digunakan untuk mengel
 - Mengedit informasi pesanan
 - Menghapus data pesanan
 
-## Struktur Proyek
-
-restoran-app/
-│
-├── app/
-│   ├── Http/
-│   │   └── Controllers/
-│   │       ├── MejaController.php
-│   │       ├── PelangganController.php
-│   │       └── PesananController.php
-│   │
-│   └── Models/
-│       ├── Meja.php
-│       ├── Pelanggan.php
-│       └── Pesanan.php
-│
-├── database/
-│   └── migrations/
-│       ├── 2025_12_01_072544_create_pelanggans_table.php
-│       ├── 2025_12_01_072732_create_mejas_table.php
-│       ├── 2025_12_01_072753_create_pesanans_table.php
-│       ├── 2025_12_01_091604_add_kapasitas_minimumspent_to_mejas_table.php
-│       └── 2025_12_01_091620_rename_totalharga_to_totaldp_in_pesanans_table.php
-│
-├── resources/
-│   └── views/
-│       ├── dashboard.blade.php
-│       │
-│       ├── meja/
-│       │   ├── create.blade.php
-│       │   ├── edit.blade.php
-│       │   └── index.blade.php
-│       │
-│       ├── pelanggan/
-│       │   ├── create.blade.php
-│       │   ├── edit.blade.php
-│       │   └── index.blade.php
-│       │
-│       └── pesanan/
-│           ├── create.blade.php
-│           ├── edit.blade.php
-│           └── index.blade.php
-│
-├── routes/
-│   └── web.php
-│
-└── tests/
-    └── Unit/
-        ├── MejaTest.php
-        ├── MejaControllerTest.php
-        ├── PelangganTest.php
-        ├── PelangganControllerTest.php
-        ├── PesananTest.php
-        └── PesananControllerTest.php
-
-
 ## Teknologi
  - PHP
  - Laravel - Framework PHP
@@ -93,19 +37,19 @@ restoran-app/
 1. Clone Repository
    git clone https://github.com/frnadaln/restoran_app.git
    
-2. Install dependensi
+2. Install dependensi: 
    composer install
 
-3. Buat file environment
+3. Buat file environment: 
    cp .env.example .env
    
-4. Generate key
+4. Generate key: 
    php artisan key:generate
 
-5. Jalankan server
+5. Jalankan server: 
     php artisan serve
 
-6. Migrasi database
+6. Migrasi database:
     php artisan migrate
 
 
