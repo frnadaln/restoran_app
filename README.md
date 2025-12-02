@@ -56,3 +56,8 @@ Restoran App adalah sebuah sistem pemesanan restoran yang digunakan untuk mengel
 ## Menjalankan Test
 
 Menjalankan semua test: php artisan test
+
+## Dokumentasi File
+
+Dokumen Pengembangan Sistem: https://drive.google.com/file/d/17xMseogqYBT9FAissivSjAT0O-k_x2_s/view?usp=sharing
+Slide Presentasi: https://drive.google.com/file/d/1fap7vg3xym9NUeGHLbozPoX9xFpKb11M/view?usp=sharing
